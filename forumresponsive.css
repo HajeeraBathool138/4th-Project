@@ -1,0 +1,641 @@
+@media only screen and (max-width: 575px) {
+    #nav-2-nav {
+        display: block;
+        width: 159%;
+        position: relative;
+    }
+
+    .nav-2-nav {
+        display: flex;
+        width: auto;
+        height: 100px;
+    }
+
+    .nav-2-nav ul {
+        position: fixed;
+        z-index: 5;
+        top: 101px;
+    }
+
+    #click:checked~ul li a {
+        margin-left: 0px;
+        width: 100%;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .logo {
+        position: absolute;
+        left: auto;
+    }
+
+    label.menu-btn {
+        position: absolute;
+        right: 50px;
+    }
+
+    .nav-2-nav ul {
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+
+    .nav-2-nav ul li {
+        width: 60%;
+        margin: 40px 0;
+        position: relative;
+        left: 25px;
+    }
+
+    .nav-2-nav .menu-btn i {
+        display: block;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    header#menu,
+    header#menu2 {
+        display: none;
+    }
+
+    header#menu {
+        display: none;
+    }
+
+    .nav2-menu-2 img {
+        width: 100px;
+        object-fit: cover;
+    }
+
+    .menu-1 {
+        width: 90%;
+        height: 100%;
+    }
+
+    .nav-items {
+        text-decoration: none;
+        display: flex;
+        width: 54%;
+    }
+
+    .nav2-menu-2 {
+        grid-template-columns: 1fr 4fr 1fr;
+        align-items: center;
+        justify-items: end;
+    }
+
+    .image-L {
+        width: 159%;
+        padding-top: 0%;
+    }
+
+    .forum1-parts {
+        width: 159%;
+    }
+
+    .forum1-part2 h2,
+    .forum2-part2 h2 {
+        padding: 20px 30px;
+    }
+
+    .forum3-parts {
+        height: 100%;
+        width: 159%;
+    }
+
+    .forum4-parts {
+        height: 100%;
+        width: 159%;
+        padding-bottom: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .forum4-part {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        width: 100%;
+    }
+
+    .col-lg-6,
+    .col-lg-12 {
+        padding-right: 0px;
+    }
+
+    .banner10_part {
+        width: 90.4%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+        justify-items: center;
+        padding: 20px 20px;
+        justify-items: baseline;
+    }
+
+    .banner10_parts {
+        width: 159%;
+        height: 100%;
+    }
+
+    .button-contactForm {
+        right: 1%;
+        font-size: 22px;
+    }
+
+    .banner10_part5 {
+        width: 90%;
+        padding: 20px;
+        grid-template-columns: none;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+
+    .part2-banner10_part5 a {
+        font-size: 26px;
+    }
+
+    .part1-banner10_part5 p {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .banner10_part1 p,
+    .banner10_part2 p,
+    .banner10_part3 p,
+    .banner10_part4 p {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .banner10_part1 h4,
+    .banner10_part2 h4,
+    .banner10_part3 h4,
+    .banner10_part4 h4 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    input#inp {
+        font-size: 18px;
+        letter-spacing: 1px;
+        height: 32px;
+    }
+
+    .forum1-part2 p,
+    .forum2-part2 p {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .blog__details__comment h4 {
+        font-size: 27px;
+        letter-spacing: 1px;
+    }
+
+    .blog__details__comment__item__text span {
+        font-size: 18px;
+    }
+
+    .blog__details__comment__item__text p {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    .blog__details__comment__item__text h5 {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .blog__details__comment__item__text #like {
+        letter-spacing: 2px;
+        font-size: 19px;
+        margin-bottom: 15px;
+    }
+
+    .blog__details__comment__item__text #reply {
+        letter-spacing: 2px;
+        font-size: 19px;
+    }
+
+    .site-btn {
+        font-size: 18px;
+    }
+
+    .btn_1 {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+
+    .blog__details__form h4 {
+        font-size: 27px;
+        letter-spacing: 1px;
+    }
+
+    .blog__details__form form input {
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+
+    .blog__details__form form textarea {
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+
+    .forum1-part1,
+    .forum2-part1 {
+        width: 85%;
+        height: 100%;
+    }
+
+    .forum1-part2,
+    .forum2-part2 {
+        width: 85%;
+    }
+
+    .blog__details__comment {
+        width: 87%;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+    #nav-2-nav {
+        display: block;
+        width: 128.9%;
+        position: relative;
+    }
+
+    .nav-2-nav {
+        display: flex;
+        width: auto;
+        height: 130px;
+        flex-wrap: initial;
+    }
+
+    .logo {
+        position: absolute;
+        left: auto;
+    }
+
+    label.menu-btn {
+        position: absolute;
+        right: 50px;
+    }
+
+    .nav-2-nav .menu-btn i {
+        display: block;
+        font-size: 27px;
+        color: #fff;
+    }
+
+    #click:checked~ul li a {
+        margin-left: 0px;
+        width: 100%;
+        font-size: 23px;
+        letter-spacing: 1px;
+    }
+
+    header#menu,
+    header#menu2 {
+        display: none;
+    }
+
+    header#menu {
+        display: none;
+    }
+
+    .menu-2 img {
+        width: 125px;
+    }
+
+    .nav-items {
+        text-decoration: none;
+        display: flex;
+        width: 54%;
+    }
+
+    .nav2-menu-2 {
+        grid-template-columns: 1fr 4fr 1fr;
+        align-items: center;
+        justify-items: end;
+    }
+
+    .image-L {
+        width: 128.9%;
+        padding-top: 0%;
+    }
+
+    .forum1-parts {
+        width: 128.9%;
+    }
+
+    .forum3-parts {
+        height: 100%;
+        width: 129%;
+    }
+
+    .forum4-parts {
+        height: 100%;
+        width: 129%;
+        padding-bottom: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .forum4-part {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        width: 100%;
+    }
+
+    .col-lg-6,
+    .col-lg-12 {
+        padding-right: 0px;
+    }
+
+    .banner10_part {
+        width: 95.4%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+        justify-items: center;
+        padding: 20px 20px;
+        justify-items: baseline;
+    }
+
+    .banner10_parts {
+        width: 129%;
+        height: 100%;
+    }
+
+    .button-contactForm {
+        right: 1%;
+        font-size: 24px;
+    }
+
+    .banner10_part5 {
+        width: 96%;
+        padding: 20px;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        padding: 20px;
+        gap: 1rem;
+        grid-template-columns: none;
+        justify-content: space-around;
+    }
+
+    .part2-banner10_part5 a {
+        font-size: 26px;
+    }
+
+    .part1-banner10_part5 p {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .banner10_part1 p,
+    .banner10_part2 p,
+    .banner10_part3 p,
+    .banner10_part4 p {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .banner10_part1 h4,
+    .banner10_part2 h4,
+    .banner10_part3 h4,
+    .banner10_part4 h4 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    input#inp {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .forum1-part2 p,
+    .forum2-part2 p {
+        font-size: 16px;
+    }
+
+    .blog__details__comment h4 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .blog__details__comment__item__text span {
+        font-size: 16px;
+    }
+
+    .blog__details__comment__item__text p {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .blog__details__comment__item__text h5 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .blog__details__comment__item__text #like {
+        letter-spacing: 2px;
+        font-size: 16px;
+    }
+
+    .site-btn {
+        font-size: 16px;
+    }
+
+    .btn_1 {
+        font-size: 16.5px;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:991px) {
+    #nav-3-nav {
+        display: block;
+        width: 106.7%;
+        position: relative;
+    }
+
+    .nav-3-nav {
+        display: grid;
+        width: auto;
+        height: 100px;
+        flex-wrap: initial;
+    }
+
+    header#menu,
+    header#menu2 {
+        display: none;
+    }
+
+    .menu-2 img {
+        width: 125px;
+    }
+
+    .nav-items {
+        text-decoration: none;
+        display: flex;
+        width: 54%;
+    }
+
+    .image-L {
+        width: 106.6%;
+        padding-top: 0%;
+    }
+
+    .forum1-parts {
+        width: 104.7%;
+    }
+
+    .forum4-parts {
+        height: 100%;
+        width: 103%;
+        padding-bottom: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .forum4-part {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        width: 100%;
+    }
+
+    .col-lg-6,
+    .col-lg-12 {
+        padding-right: 0px;
+    }
+
+    .banner10_part {
+        width: 95.4%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+        justify-items: center;
+        padding: 20px 20px;
+    }
+
+    .banner10_parts {
+        width: 106.6%;
+        height: 100%;
+    }
+
+    .button-contactForm {
+        right: 1%;
+    }
+
+    .banner10_part5 {
+        width: 105%;
+        padding: 20px;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .part2-banner10_part5 a {
+        font-size: 22px;
+    }
+
+    .part1-banner10_part5 p {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .banner10_part1 p,
+    .banner10_part2 p,
+    .banner10_part3 p,
+    .banner10_part4 p {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .banner10_part1 h4,
+    .banner10_part2 h4,
+    .banner10_part3 h4,
+    .banner10_part4 h4 {
+        font-size: 21px;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width: 1300px) {
+    .nav-items {
+        text-decoration: none;
+        display: flex;
+        width: 57%;
+    }
+
+    .banner10_part {
+        width: 96%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 3rem;
+        justify-items: center;
+        padding: 20px 20px;
+    }
+
+    .banner10_parts {
+        width: 100%;
+        height: 100%;
+    }
+
+    .button-contactForm {
+        right: 1%;
+    }
+
+    .banner10_part5 {
+        width: 96%;
+        padding: 20px;
+        grid-template-columns: 4fr 1fr;
+    }
+
+    .part2-banner10_part5 a {
+        font-size: 22px;
+    }
+
+    .part1-banner10_part5 p {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .banner10_part1 p,
+    .banner10_part2 p,
+    .banner10_part3 p,
+    .banner10_part4 p {
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    .banner10_part1 h4,
+    .banner10_part2 h4,
+    .banner10_part3 h4,
+    .banner10_part4 h4 {
+        font-size: 21px;
+        letter-spacing: 1px;
+    }
+
+}

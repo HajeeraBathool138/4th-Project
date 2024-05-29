@@ -1,0 +1,570 @@
+@media only screen and (max-width: 575px) {
+    #nav-2-nav {
+        display: block;
+        width: 163%;
+        position: relative;
+    }
+
+    .nav-2-nav {
+        display: flex;
+        width: auto;
+        height: 100px;
+    }
+
+    .nav-2-nav ul {
+        position: fixed;
+        z-index: 5;
+        top: 101px;
+    }
+
+    #click:checked~ul li a {
+        margin-left: 0px;
+        width: 100%;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    .logo {
+        position: absolute;
+        left: auto;
+    }
+
+    label.menu-btn {
+        position: absolute;
+        right: 50px;
+    }
+
+    .nav-2-nav ul {
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+
+    .nav-2-nav ul li {
+        width: 60%;
+        margin: 40px 0;
+        position: relative;
+        left: 25px;
+    }
+
+    .nav-2-nav .menu-btn i {
+        display: block;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    header#menu,
+    header#menu2 {
+        display: none;
+    }
+
+    .nav-items {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .menu-2 img {
+        width: 130px;
+    }
+
+    .heading-text {
+        font-size: 25px;
+        padding-top: 20%;
+        width: 163%;
+    }
+
+    .d-banner1_part2 {
+        width: 35%;
+        height: 100%;
+    }
+
+    #h1-h2-h3-h4 {
+        width: 134%;
+    }
+
+    .d-banner1_parts {
+        padding-top: 25.4%;
+        width: 162%;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .d-banner2_parts {
+        width: 162%;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        padding-top: 7%;
+    }
+
+    .d-banner3_parts {
+        width: 162%;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        padding-top: 7%;
+    }
+
+    .d-banner4_parts {
+        width: 162%;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        padding-top: 7%;
+    }
+
+    .d-banner5_parts {
+        width: 162%;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        padding-top: 7%;
+    }
+
+    .d-banner1_part1,
+    .d-banner2_part1,
+    .d-banner3_part1,
+    .d-banner4_part1,
+    .d-banner5_part1 {
+        width: auto;
+    }
+
+    .d-banner1_part2,
+    .d-banner2_part2,
+    .d-banner3_part2,
+    .d-banner4_part2,
+    .d-banner5_part2 {
+        width: 80%;
+        height: 100%;
+    }
+
+    #card {
+        transform: translate(-50%, -50%);
+        width: 65%;
+        height: 220px;
+        background: #262626;
+        overflow: hidden;
+        position: relative;
+        top: 6.5rem;
+        left: 34%;
+    }
+
+    h1#aboutus {
+        width: 163%;
+    }
+
+    .banner6_part {
+        width: 162%;
+    }
+
+    .content-box {
+        height: 100%;
+    }
+
+
+    .column.medium-6.valign-middle {
+        width: 100%;
+    }
+
+    .column.medium-6.valign-middle img {
+        width: 100%;
+    }
+
+    .row.row-table {
+        display: flex;
+        align-items: center;
+        padding-top: 2rem;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #card .details h1 {
+        font-size: 23px;
+    }
+
+    span {
+        color: white;
+        font-size: 19px;
+        letter-spacing: 1px;
+        font-family: cursive;
+    }
+
+    .banner10_part {
+        width: 90.4%;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+        justify-items: center;
+        padding: 20px 20px;
+        justify-items: baseline;
+    }
+
+    .banner10_parts {
+        width: 159%;
+        height: 100%;
+    }
+
+    .button-contactForm {
+        right: 1%;
+    }
+
+    .banner10_part5 {
+        width: 93%;
+        padding: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .part2-banner10_part5 a {
+        font-size: 26px;
+    }
+
+    .part1-banner10_part5 p {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .banner10_part1 p,
+    .banner10_part2 p,
+    .banner10_part3 p,
+    .banner10_part4 p {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .banner10_part1 h4,
+    .banner10_part2 h4,
+    .banner10_part3 h4,
+    .banner10_part4 h4 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    input#inp {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+    #nav-2-nav {
+        display: block;
+        width: 113.3%;
+        position: relative;
+    }
+
+    .nav-2-nav {
+        display: flex;
+        width: auto;
+        height: 130px;
+        flex-wrap: initial;
+    }
+
+    .logo {
+        position: absolute;
+        left: auto;
+    }
+
+    label.menu-btn {
+        position: absolute;
+        right: 50px;
+    }
+
+    .nav-2-nav .menu-btn i {
+        display: block;
+        font-size: 27px;
+        color: #fff;
+    }
+
+    #click:checked~ul li a {
+        margin-left: 0px;
+        width: 100%;
+        font-size: 23px;
+        letter-spacing: 1px;
+    }
+
+    header#menu,
+    header#menu2 {
+        display: none;
+    }
+
+    .nav-items {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .menu-2 img {
+        width: 130px;
+    }
+
+    .heading-text {
+        font-size: 25px;
+        padding-top: 20%;
+        width: 113.3%;
+    }
+
+    .d-banner1_part2 {
+        width: 35%;
+        height: 100%;
+    }
+
+    #h1-h2-h3-h4 {
+        width: 100%;
+    }
+
+    .d-banner1_parts {
+        width: 113.2%;
+        padding-top: 14.4%;
+    }
+
+    .d-banner2_parts {
+        width: 113.2%;
+        padding-top: 7%;
+    }
+
+    .d-banner3_parts {
+        width: 113.2%;
+        padding-top: 7%;
+    }
+
+    .d-banner4_parts {
+        width: 113.2%;
+        padding-top: 7%;
+    }
+
+    .d-banner5_parts {
+        width: 113.2%;
+        padding-top: 7%;
+    }
+
+    h1#aboutus {
+        width: 113.3%;
+    }
+
+    .banner6_part {
+        width: 113.2%;
+    }
+
+    .content-box {
+        height: 100%;
+    }
+
+    .column.medium-6.valign-middle {
+        width: 77%;
+    }
+
+    .row.row-table {
+        display: flex;
+        align-items: center;
+        padding-top: 2rem;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #card .details h1 {
+        font-size: 23px;
+    }
+
+    .banner10_parts {
+        width: 113.2%;
+        height: 100%;
+    }
+
+    .banner10_part {
+        width: 95%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+        padding: 20px 20px;
+        justify-items: baseline;
+        align-items: flex-start;
+    }
+
+    .banner10_part5 {
+        width: 94.2%;
+        padding: 0px 20px;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .button-contactForm {
+        right: 0.5%;
+    }
+
+    .banner10_part1 p,
+    .banner10_part2 p,
+    .banner10_part3 p,
+    .banner10_part4 p {
+        font-weight: 500;
+        font-family: math;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .banner10_part1 h4,
+    .banner10_part2 h4,
+    .banner10_part3 h4,
+    .banner10_part4 h4 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .part1-banner10_part5 p {
+        font-size: 17px;
+    }
+
+    .part2-banner10_part5 a {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width:769px) and (max-width:991px) {
+    #nav-3-nav {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    .nav-3-nav {
+        display: grid;
+        width: auto;
+        height: 100px;
+        flex-wrap: initial;
+    }
+
+    header#menu,
+    header#menu2 {
+        display: none;
+    }
+
+    .nav-items {
+        width: 48%;
+        margin-right: 2%;
+    }
+
+    .menu-2 img {
+        width: 130px;
+    }
+
+    .heading-text {
+        font-size: 25px;
+        padding-top: 20%;
+    }
+
+    .d-banner1_part2 {
+        width: 35%;
+        height: 100%;
+    }
+
+    .content-box {
+        height: 100%;
+    }
+
+    .column.medium-6.valign-middle {
+        width: 66%;
+    }
+
+    .row.row-table {
+        display: flex;
+        align-items: center;
+        padding-top: 2rem;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #card .details h1 {
+        font-size: 23px;
+    }
+
+    .banner10_parts {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner10_part {
+        width: 94.2%;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        padding: 0px 20px;
+    }
+
+    .banner10_part5 {
+        width: 94.2%;
+        padding: 0px 20px;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .button-contactForm {
+        right: 0.5%;
+    }
+
+    .banner10_part1 p,
+    .banner10_part2 p,
+    .banner10_part3 p,
+    .banner10_part4 p {
+        font-weight: 500;
+        font-family: math;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .banner10_part1 h4,
+    .banner10_part2 h4,
+    .banner10_part3 h4,
+    .banner10_part4 h4 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .part1-banner10_part5 p {
+        font-size: 17px;
+    }
+
+    .part2-banner10_part5 a {
+        font-size: 23px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width: 1300px) {
+    .nav-items {
+        width: 58%;
+    }
+
+    .content-box {
+        width: 75%;
+        height: 100%;
+    }
+
+    .button-contactForm {
+        right: 0.5%;
+    }
+
+    .banner10_part {
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+
+    .banner10_part1 p,
+    .banner10_part2 p,
+    .banner10_part3 p,
+    .banner10_part4 p {
+        font-weight: 500;
+        font-family: math;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .banner10_part1 h4,
+    .banner10_part2 h4,
+    .banner10_part3 h4,
+    .banner10_part4 h4 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .part1-banner10_part5 p {
+        font-size: 17px;
+    }
+
+    .part2-banner10_part5 a {
+        font-size: 23px;
+    }
+}
