@@ -134,10 +134,11 @@ a {
     font-size: 18px;
 }
 
-.btn_1 {
+.btn_1,
+.btn_13 {
     position: relative;
     display: inline-block;
-    padding: 18.5px 16px;
+    padding: 18.5px 25px;
     border-radius: 0;
     font-size: 15px;
     font-family: "Aclonica", sans-serif;
@@ -148,9 +149,11 @@ a {
     background-size: 200% auto;
     border: 1px solid transparent;
     background-image: linear-gradient(to left, #ff0000 0%, #c6019a 51%, #ff0000 100%);
+    width: max-content;
 }
 
-.btn_1::before {
+.btn_1::before,
+.btn_13::before {
     position: absolute;
     content: '';
     width: 30px;
@@ -162,7 +165,8 @@ a {
     transition: all 0.5s;
 }
 
-.btn_1::after {
+.btn_1::after,
+.btn_13::after {
     position: absolute;
     content: '';
     width: 30px;
@@ -174,8 +178,132 @@ a {
     transition: all 0.5s;
 }
 
+.btn_13 {
+    display: none;
+}
+
+label.menu-btn1 {
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-2 img {
+        width: 205px;
+    }
+
+    header#menu,
+    header#menu2 {
+        animation-duration: 1s;
+        width: 100%;
+        height: 12%;
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+        background-color: brown;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        z-index: 5;
+    }
+
+    .menu-1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    nav.menu-2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+    }
+
+    .menu-2 a {
+        display: flex;
+        order: 0;
+        width: 100%;
+    }
+
+    .nav-items {
+        display: flex;
+        width: 80%;
+        height: 325px;
+        justify-content: center;
+        align-items: center;
+        order: 3;
+        flex-direction: column;
+        padding: 9px 25px;
+        background: dimgrey;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        gap: 2rem;
+        display: none;
+    }
+
+    .nav-items2 {
+        display: none;
+    }
+
+    a.btn_1 {
+        width: max-content;
+    }
+
+    label.menu-btn1 {
+        position: absolute;
+        right: 35px;
+        display: block;
+    }
+
+    .menu-btn1 i {
+        display: block;
+        font-size: 35px;
+        color: #fff;
+    }
+
+    #click1:checked~.menu-btn1 i:before {
+        content: "\f00d";
+    }
+
+    #click1:checked~.nav-items {
+        left: 0px;
+        display: flex;
+        align-items: baseline;
+        width: auto;
+    }
+
+    #click1:checked~.nav-items a {
+        margin-left: 0px;
+        width: 95%;
+        font-size: 20px;
+        letter-spacing: 1px;
+        justify-content: center;
+    }
+
+    .nav-items a:hover {
+        background: beige;
+        border-radius: 50px;
+        color: brown;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn_13 {
+        display: block;
+    }
+}
+
 .btn_1:hover:before,
-.btn_1:hover::after {
+.btn_1:hover::after,
+.btn_13:hover:before,
+.btn_13:hover::after {
     width: 100%;
     height: 100%;
 }
@@ -1129,184 +1257,4 @@ div#single-content-1 {
     background-position: 100% 50%;
     color: #fff;
     text-decoration: none;
-}
-
-/* mobile device navbar */
-.nav-2-nav {
-    display: flex;
-    height: 80px;
-    width: 100%;
-    background: brown;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 50px 0 50px;
-    flex-wrap: wrap;
-    display: none;
-}
-
-input[type="checkbox"] {
-    display: none;
-}
-
-@media (max-width: 768px) {
-    .nav-2-nav {
-        display: flex;
-    }
-
-    .logo a img {
-        width: 220px;
-        object-fit: cover;
-        height: 55px;
-    }
-
-    .nav-2-nav .menu-btn i {
-        display: block;
-        font-size: 40px;
-        color: #fff;
-    }
-
-    #click:checked~.menu-btn i:before {
-        content: "\f00d";
-    }
-
-    .nav-2-nav ul {
-        position: fixed;
-        z-index: 5;
-        top: 131px;
-        left: -100%;
-        background: dimgrey;
-        height: auto;
-        width: 35%;
-        text-align: center;
-        display: block;
-        transition: all 0.3s ease;
-    }
-
-    #click:checked~ul {
-        left: 0px;
-    }
-
-    .nav-2-nav ul li {
-        width: 65%;
-        margin: 40px 0;
-        position: relative;
-        left: 40px;
-        list-style: none;
-    }
-
-    .nav-2-nav ul li a {
-        width: 100%;
-        margin-left: -100%;
-        display: block;
-        font-size: 20px;
-        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
-
-    #click:checked~ul li a {
-        margin-left: 0px;
-        width: 100%;
-        font-size: 31px;
-        letter-spacing: 1px;
-    }
-
-    .nav-2-nav ul li a:hover {
-        background: beige;
-        border-radius: 50px;
-        color: brown;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-/* tablet device navbar */
-.nav-3-nav {
-    display: grid;
-    grid-template-columns: 0fr 7fr 1fr;
-    align-content: center;
-    justify-items: end;
-    height: 100px;
-    width: 100%;
-    background: brown;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 50px 0 50px;
-    display: none;
-}
-
-input[type="checkbox"] {
-    display: none;
-}
-
-@media (min-width:769px) and (max-width: 991px) {
-    .nav-3-nav {
-        display: grid;
-    }
-
-    .logo1 a img {
-        width: 220px;
-        object-fit: cover;
-        height: 55px;
-    }
-
-    .nav-3-nav .menu-btn1 i {
-        display: block;
-        font-size: 25px;
-        color: #fff;
-    }
-
-    #click1:checked~.menu-btn1 i:before {
-        content: "\f00d";
-    }
-
-    .nav-3-nav ul {
-        position: fixed;
-        z-index: 5;
-        top: 100px;
-        left: -100%;
-        background: dimgrey;
-        height: auto;
-        width: 30%;
-        text-align: center;
-        display: block;
-        transition: all 0.3s ease;
-    }
-
-    #click1:checked~ul {
-        left: 0px;
-    }
-
-    .nav-3-nav ul li {
-        width: 65%;
-        margin: 40px 0;
-        position: relative;
-        left: 0px;
-        list-style: none;
-    }
-
-    .nav-3-nav ul li a {
-        width: 100%;
-        margin-left: -100%;
-        display: block;
-        font-size: 20px;
-        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
-
-    #click1:checked~ul li a {
-        margin-left: 0px;
-        width: 145%;
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .nav-3-nav ul li a:hover {
-        background: beige;
-        border-radius: 50px;
-        color: brown;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 }
