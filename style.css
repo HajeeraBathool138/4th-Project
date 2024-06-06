@@ -192,7 +192,7 @@ input[type="checkbox"] {
 
 @media (max-width: 768px) {
     .menu-2 img {
-        width: 205px;
+        width: fit-content;
     }
 
     header#menu,
@@ -226,7 +226,7 @@ input[type="checkbox"] {
     .menu-2 a {
         display: flex;
         order: 0;
-        width: 100%;
+        width: 95%;
     }
 
     .nav-items {
@@ -262,7 +262,7 @@ input[type="checkbox"] {
 
     .menu-btn1 i {
         display: block;
-        font-size: 35px;
+        font-size: 19px;
         color: #fff;
     }
 
@@ -322,7 +322,7 @@ input[type="checkbox"] {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 3rem;
+    gap: 1rem;
     justify-items: center;
 }
 
@@ -344,10 +344,9 @@ input[type="checkbox"] {
 }
 
 .part1-banner10_part4 {
-    display: grid;
-    grid-template-columns: 0fr 0fr;
-    gap: 1rem;
     align-items: end;
+    display: flex;
+    gap: 2rem;
 }
 
 input#inp {
@@ -360,9 +359,6 @@ input#inp {
     border: 2px solid;
     border-image: linear-gradient(to left, #c6019a 0%, #ff0000 100%);
     background-image: linear-gradient(to left, #c6019a 0%, #ff0000 100%);
-    position: sticky;
-    right: 8%;
-    top: 37%;
     font-size: 18px;
 }
 
@@ -464,8 +460,9 @@ i.fa-regular.fa-paper-plane {
 }
 
 .banner2_part1 {
-    width: 67%;
-    text-align-last: justify;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .banner2_part1 img {
@@ -539,9 +536,9 @@ i.fa-regular.fa-paper-plane {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    justify-items: center;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 5rem;
+    justify-content: center;
 }
 
 .banner4_part1 {
@@ -689,8 +686,7 @@ i.fa-regular.fa-paper-plane {
 .banner4_part2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: r;
-    width: 110%;
+    width: 100%;
     gap: 1rem;
     justify-self: flex-end;
 }
@@ -735,8 +731,8 @@ span.material-symbols-outlined {
 
 
 .banner5_part2 {
-    width: 870px;
-    height: 435px;
+    width: 100%;
+    height: 100%;
     position: relative;
     z-index: 1;
     margin-bottom: 40px;
@@ -779,9 +775,9 @@ span.material-symbols-outlined {
     background-image: url(images/section6img.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 866px;
-    height: 431px;
+    background-size: cover;
+    width: 99.5%;
+    height: 99%;
 }
 
 .txt-box {
@@ -790,8 +786,9 @@ span.material-symbols-outlined {
     justify-content: center;
     justify-items: center;
     position: relative;
-    top: 90px;
+    top: 35px;
     z-index: 3;
+    padding: 40px 160px;
 }
 
 .txt-box img {
@@ -1184,6 +1181,7 @@ div#single-content-1 {
     display: grid;
     grid-template-columns: repeat(3, 250px);
     justify-content: center;
+    gap: 2rem;
 }
 
 .part1-banner9_part2 {

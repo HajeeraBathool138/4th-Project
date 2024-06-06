@@ -192,7 +192,7 @@ input[type="checkbox"] {
 
 @media (max-width: 768px) {
     .menu-2 img {
-        width: 205px;
+        width: auto;
     }
 
     header#menu,
@@ -262,7 +262,7 @@ input[type="checkbox"] {
 
     .menu-btn1 i {
         display: block;
-        font-size: 35px;
+        font-size: 19px;
         color: #fff;
     }
 
@@ -322,7 +322,7 @@ input[type="checkbox"] {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 3rem;
+    gap: 1rem;
     justify-items: center;
 }
 
@@ -344,10 +344,9 @@ input[type="checkbox"] {
 }
 
 .part1-banner10_part4 {
-    display: grid;
-    grid-template-columns: 0fr 0fr;
-    gap: 1rem;
     align-items: end;
+    display: flex;
+    gap: 2rem;
 }
 
 input#inp {
@@ -360,9 +359,6 @@ input#inp {
     border: 2px solid;
     border-image: linear-gradient(to left, #c6019a 0%, #ff0000 100%);
     background-image: linear-gradient(to left, #c6019a 0%, #ff0000 100%);
-    position: sticky;
-    right: 8%;
-    top: 37%;
     font-size: 18px;
 }
 
@@ -773,10 +769,6 @@ img.ban5-img-2 {
     z-index: -1;
 }
 
-/* .content-box.large {
-    padding: 50px;
-} */
-
 .banner6_part {
     display: flex;
     justify-content: center;
@@ -789,7 +781,7 @@ img.ban5-img-2 {
     margin-bottom: 30px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, .15);
     width: 75%;
-    height: 500px;
+    height: 100%;
 }
 
 .row .row {

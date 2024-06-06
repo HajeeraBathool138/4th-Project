@@ -1,4 +1,4 @@
-@media only screen and (max-width: 575px) {
+/* @media only screen and (max-width: 575px) {
     .image-L {
         width: 159%;
         padding-top: 0%;
@@ -574,4 +574,326 @@
         letter-spacing: 1px;
     }
 
+} */
+
+@media only screen and (max-width: 575px) {
+    #h1-h2-h3-h4 {
+        padding: 0px;
+        margin: 0px;
+        font-size: 40px;
+    }
+
+    .forum1-part2 h2,
+    .forum2-part2 h2 {
+        color: #fff;
+        padding: 0px 0px;
+    }
+
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 80%;
+    }
+
+    .col-lg-6,
+    .col-lg-12 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .blog__details__form form input {
+        padding-left: 0px;
+    }
+
+    .blog__details__form form textarea {
+        padding-left: 0px;
+    }
+
+    .blog__details__form h4 {
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner10_parts {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner10_part {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner10_part5 {
+        grid-template-columns: none;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    #h1-h2-h3-h4 {
+        padding: 0px;
+        margin: 0px;
+        font-size: 40px;
+    }
+
+    .forum1-part2 h2,
+    .forum2-part2 h2 {
+        color: #fff;
+        padding: 0px 0px;
+    }
+
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 80%;
+    }
+
+    .col-lg-6,
+    .col-lg-12 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .blog__details__form form input {
+        padding-left: 0px;
+    }
+
+    .blog__details__form form textarea {
+        padding-left: 0px;
+    }
+
+    .blog__details__form h4 {
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner10_parts {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner10_part {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner10_part5 {
+        grid-template-columns: none;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+
+    header#menu,
+    header#menu2 {
+        animation-duration: 1s;
+        width: 100%;
+        height: 15%;
+        box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+        background-color: brown;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        z-index: 5;
+    }
+
+    .menu-1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    nav.menu-2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+    }
+
+    .menu-2 a {
+        display: flex;
+        order: 1;
+        width: 59%;
+        padding-left: 30px;
+    }
+
+    .nav-items {
+        text-decoration: none;
+        display: flex;
+        width: 15%;
+        height: 250px;
+        justify-content: center;
+        align-items: center;
+        order: 3;
+        flex-direction: column;
+        padding: 9px 25px;
+        background: dimgrey;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        gap: 2rem;
+        display: none;
+    }
+
+    .nav-items2 {
+        display: flex;
+        order: 2;
+        width: 30%;
+    }
+
+    a.btn_1 {
+        width: max-content;
+        padding: 18.5px 25px;
+    }
+
+    label.menu-btn1 {
+        position: absolute;
+        right: 55px;
+        display: block;
+    }
+
+    .menu-btn1 i {
+        display: block;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    #click1:checked~.menu-btn1 i:before {
+        content: "\f00d";
+    }
+
+    #click1:checked~.nav-items {
+        left: 0px;
+        display: flex;
+        align-items: baseline
+    }
+
+    #click1:checked~.nav-items a {
+        margin-left: 0px;
+        width: 145%;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .nav-items a:hover {
+        background: beige;
+        border-radius: 50px;
+        color: brown;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn_13 {
+        display: none;
+    }
+
+    #h1-h2-h3-h4 {
+        padding: 0px;
+    }
+
+    .forum1-part2 h2,
+    .forum2-part2 h2 {
+        color: #fff;
+        padding: 0px 0px;
+    }
+
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 90%;
+    }
+
+    .col-lg-6,
+    .col-lg-12 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .blog__details__form form input {
+        padding-left: 0px;
+    }
+
+    .blog__details__form form textarea {
+        padding-left: 0px;
+    }
+
+    .blog__details__form h4 {
+        text-align: center;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner10_parts {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner10_part {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner10_part5 {
+        grid-template-columns: none;
+        justify-content: center;
+    }
+
+    .banner10_parts {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner10_part {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner10_part5 {
+        grid-template-columns: none;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1150px) {
+    .banner10_parts {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner10_part {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner10_part5 {
+        grid-template-columns: none;
+        justify-content: center;
+    }
 }

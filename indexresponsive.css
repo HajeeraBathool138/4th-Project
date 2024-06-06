@@ -1,62 +1,12 @@
-@media only screen and (max-width: 575px) {
-    #h1-banner1-part-1 {
-        line-height: 1.3;
-        font-size: 65px;
-        letter-spacing: 1px;
-    }
-
-    .txt-box h4 {
-        font-size: 33px;
-        letter-spacing: 2px;
-    }
-
-    p {
-        font-size: 31px;
-        letter-spacing: 3px;
-    }
+@media only screen and (max-width:575px) {
 
     .banner1_parts {
-        height: 100%;
-        padding-top: 46%;
-        width: 288%;
-        justify-content: center;
+        padding-top: 15%;
         justify-items: center;
     }
 
     .banner1_part1 {
-        width: 63%;
-        justify-content: center;
-        align-items: baseline;
-        margin-top: 30px;
-    }
-
-    .banner2_parts-main {
-        height: 100%;
-        width: 288%;
-    }
-
-    .banner2_parts {
-        width: 100%;
-        height: 75%;
-    }
-
-    .banner2_part1 {
-        width: 100%;
-        height: 75vh;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: center;
-        align-items: center;
-    }
-
-    .banner2_part1 img {
-        object-fit: contain;
-        width: 188px;
-        height: 130px;
-    }
-
-    .banner3_parts {
-        width: 288%;
+        width: 90%;
         height: 100%;
     }
 
@@ -64,479 +14,509 @@
         flex-direction: column;
     }
 
+    .banner3_part1 img {
+        height: fit-content;
+        width: 100%;
+    }
+
     .banner3_part2 {
-        width: 67%;
+        width: 100%;
     }
 
     .banner3_part2 .btn_1 {
-        margin-right: 23px;
         margin-bottom: 30px;
     }
 
-    .banner3_part2 p {
-        font-size: 31px;
+    .banner2_parts-main {
+        height: fit-content;
+        margin-top: 60px;
+    }
+
+    .banner2_parts {
+        height: fit-content;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .banner2_part1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
     }
 
     .banner4_parts {
-        width: 288%;
         grid-template-columns: none;
-        grid-template-rows: 1fr 2fr;
-        justify-content: center;
-        height: 100%;
-        padding: 0px 0 0px;
-        gap: 5rem;
-        padding: 50px 0px;
+        gap: 2rem;
+        justify-items: center;
+        padding: 40px 0 40px;
     }
 
     .banner4_part2 {
-        gap: 3rem;
-        width: 95%;
-        padding: 20px;
-        justify-self: center;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: none;
+        gap: 2rem;
+        justify-items: center;
+        width: 100%;
     }
 
-    .banner5_parts {
-        width: 288%;
-        height: 100%;
+    .card1,
+    .card2 {
+        width: 250px;
+        height: 250px;
+    }
+
+    .banner4_part1 {
+        width: fit-content;
     }
 
     .banner5_part2 {
-        width: 556px;
-        height: 279px;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .banner5_part2 {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+
+    .banner5_part2::before {
+        width: 100%;
+        height: 100%;
     }
 
     .banner5_part2::after {
-        width: 552px;
-        height: 275px;
+        width: 98%;
+        height: 98%;
+        background-size: cover;
     }
 
-    .txt-box {
-        height: 93%;
-        top: 0px;
+    .vs-box h2 {
+        font-size: 20px;
+    }
+
+    .txt-box img {
+        margin-bottom: 0px;
+        width: 50px;
+    }
+
+    .banner6_part {
+        grid-template-columns: none;
+        gap: 2rem;
     }
 
     .vs-box,
     .vs-box1,
     .part1-banner6_part1 {
         flex-direction: column;
-        border-bottom: 1px solid rosybrown;
-        padding-top: 2rem;
-    }
-
-    .part1-banner6_part1 h2 {
-        font-size: 40px;
-        letter-spacing: 1px;
-    }
-
-    .banner6_parts {
-        width: 288%;
-    }
-
-    .banner6_part {
-        width: 51%;
-        grid-template-columns: none;
-        gap: 2rem;
-        justify-items: center;
-    }
-
-    .banner6_part1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 5rem;
-        line-height: 58px;
-    }
-
-    .part1-banner6_part1 {
-        padding-top: 2rem;
-        text-align: center;
     }
 
     .banner6_part2 {
-        width: 414px;
-        height: 424px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+
+    .banner6_part2::before {
+        width: 100%;
+        height: 100%;
     }
 
     .banner6_part2::after {
-        width: 410px;
-        height: 420px;
+        width: 98%;
+        height: 98%;
+        background-size: cover;
     }
 
-    .part1-banner6_part1 img {
-        max-width: 120px;
-        object-fit: none;
+    .txt-box {
+        top: 5px;
+        padding: 20px 0px;
     }
 
-    .war_date {
-        margin-bottom: 4rem;
+    .txt-box-img {
+        margin-bottom: 0px;
+        width: 50px;
     }
 
-    .txt-box a,
-    .war_date a {
-        letter-spacing: 2px;
-        font-size: 25px;
+    .txt-box h4 {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .vs-box1 img {
+        margin-bottom: 10px;
+        max-width: 50px;
     }
 
     .txt-box p,
     .war_date p {
-        font-size: 35px;
-        letter-spacing: 1px;
-        line-height: 45px;
+        margin-bottom: 0px;
+        font-size: 12px;
     }
 
-    .banner7_parts {
-        width: 288%;
+    .txt-box a,
+    .war_date a {
+        font-size: 12px;
+        margin-top: 0px;
     }
 
-    .banner8_parts {
-        width: 288%;
+    #vs-box1-imgs {
+        flex-direction: row;
+    }
+
+    .vs-box1 h2 {
+        font-size: 20px;
+    }
+
+    .banner7_part {
+        grid-template-columns: none;
+    }
+
+    .banner7_part2 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .single-content {
+        width: 100%;
+        height: 300px;
+    }
+
+    img#img-1 {
+        width: 100%;
+        height: 300px;
+    }
+
+    #single-content-4 {
+        width: 100%;
+        height: 300px;
+    }
+
+    #single-content-5 {
+        width: 100%;
+        height: 300px;
+    }
+
+    div#single-content-1 {
+        width: 100%;
+        height: 300px;
+    }
+
+    #single-content-2 {
+        width: 100%;
+        height: 300px;
     }
 
     .banner8_part {
-        gap: 10rem;
+        width: 100%;
+        height: 100%;
     }
 
-    .banner8_part2 h2 {
-        font-size: 30px;
-        margin-bottom: 30px;
-    }
-
-    #txt-p {
-        font-size: 30px;
-    }
-
-    .banner9_parts {
-        width: 288%;
-    }
-
-    .banner9_part {
-        width: 67%;
-        display: grid;
-        justify-content: center;
-        gap: 5rem;
+    .txt {
+        grid-template-columns: none;
     }
 
     .banner9_part2 {
-        display: grid;
-        grid-template-columns: repeat(1, 450px);
-        justify-content: center;
-        gap: 4rem;
-        height: 100%;
-    }
-
-    .part1-banner9_part2 {
-        width: 100%;
-    }
-
-    .single_pricing_part p {
-        color: #fff;
-        font-size: 33px;
-    }
-
-    .single_pricing_part h3 {
-        font-size: 55px;
-    }
-
-    .single_pricing_part ul li {
-        font-size: 26px;
-        letter-spacing: 3px;
-    }
-
-    .btn_2 {
-        letter-spacing: 1px;
-        font-size: 30px;
+        grid-template-columns: repeat(1, 88%);
+        justify-content: start;
+        gap: 3rem;
     }
 
     .banner10_parts {
-        width: 288%;
+        width: 100%;
         height: 100%;
-        gap: 4rem;
+        gap: 3rem;
     }
 
     .banner10_part {
-        width: 92%;
         grid-template-columns: repeat(1, 1fr);
-        gap: 5rem;
-        padding: 0rem 2rem;
-        justify-items: baseline;
-    }
-
-    input#inp {
-        height: 35px;
-        font-size: 25px;
-        letter-spacing: 2px;
-    }
-
-    .button-contactForm {
-        font-size: 25px;
-    }
-
-    p.para {
-        font-size: 25px;
-        letter-spacing: 2px;
+        justify-items: normal;
     }
 
     .banner10_part5 {
         grid-template-columns: none;
-        width: 92%;
-        padding: 2rem 2rem;
-        gap: 2rem;
     }
 
-    .part1-banner10_part5 p {
-        font-size: 35px;
-        letter-spacing: 2px;
-    }
-
-    .part2-banner10_part5 a {
-        font-size: 41px;
-    }
-
-    .banner10_part1 img {
-        width: 185px;
-        object-fit: cover;
-    }
-
-    .banner10_part1 p,
-    .banner10_part2 p,
-    .banner10_part3 p,
-    .banner10_part4 p {
-        font-size: 35px;
-        letter-spacing: 2px;
-        line-height: 40px;
-    }
-
-    .banner10_part1 h4,
-    .banner10_part2 h4,
-    .banner10_part3 h4,
-    .banner10_part4 h4 {
-        font-size: 45px;
-        letter-spacing: 3px;
-    }
-
-    .banner3_part1 img {
-        height: 425px;
-        width: 520px;
-        object-fit: cover;
+    #h1-h2-h3-h4 {
+        padding: 0px;
+        margin: 0px;
     }
 }
 
 @media only screen and (min-width:576px) and (max-width:768px) {
-    #h1-banner1-part-1 {
-        line-height: 1.3;
-    }
-
-    .txt-box h4 {
-        font-size: 33px;
-        letter-spacing: 2px;
-    }
-
-    .ht_item,
-    .ht_item1 {
-        height: 22%;
-    }
-
-    #menu {
-        display: none;
-    }
 
     .banner1_parts {
-        height: 80vh;
-        width: 145%;
-        justify-content: center;
+        padding-top: 5%;
         justify-items: center;
-        padding-top: 15%;
-    }
-
-    p.para {
-        font-size: 18px;
-        letter-spacing: 2px;
     }
 
     .banner1_part1 {
-        width: 63%;
-        justify-content: center;
-        align-items: baseline;
+        width: 90%;
+        height: 100%;
     }
 
-    .banner1_part1 p {
+    .banner3_part {
+        flex-direction: column;
+    }
+
+    .banner3_part1 {
+        width: 70%;
+    }
+
+    .banner3_part1 img {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .banner3_part2 {
+        width: 70%;
+    }
+
+    .banner3_part2 .btn_1 {
         margin-bottom: 30px;
-        font-weight: lighter;
-        font-family: cursive;
-        font-size: 20px;
     }
 
     .banner2_parts-main {
-        height: 50vh;
-        width: 145%;
+        height: fit-content;
+        margin-top: 0px;
     }
 
     .banner2_parts {
-        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        margin-top: 30px;
     }
 
     .banner2_part1 {
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
         justify-items: center;
-        align-items: center;
-    }
-
-    .banner3_parts {
-        width: 145%;
-    }
-
-    .banner3_part2 .btn_1 {
-        margin-right: 10px;
-        margin-bottom: 2rem;
-    }
-
-    .banner3_part2 p {
-        font-size: 20px;
-    }
-
-    .btn_1 {
-        font-size: 18px;
-        letter-spacing: 1px;
     }
 
     .banner4_parts {
-        width: 144%;
         grid-template-columns: none;
-        grid-template-rows: 1fr 2fr;
-        justify-content: end;
-        height: 105vh;
-        padding: 0px 0 0px;
+        gap: 2rem;
+        justify-items: center;
+        padding: 70px 0px;
     }
 
     .banner4_part2 {
-        gap: 0rem;
+        grid-template-columns: none;
+        gap: 2rem;
+        justify-items: center;
+        width: 100%;
     }
 
-    .banner5_parts {
-        width: 144%;
+    .card1,
+    .card2 {
+        width: 80%;
+    }
+
+    .banner4_part1 {
+        width: fit-content;
     }
 
     .banner5_part2 {
-        width: 556px;
-        height: 279px;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .banner5_part {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner5_part2 {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+
+    .banner5_part2::before {
+        width: 100%;
+        height: 100%;
     }
 
     .banner5_part2::after {
-        width: 552px;
-        height: 275px;
+        width: 99%;
+        height: 98%;
+        background-size: cover;
     }
 
-    .txt-box {
-        height: 57%;
-        top: 10px;
+    .vs-box h2 {
+        font-size: 20px;
     }
 
-    .banner6_parts {
-        width: 144%;
+    .txt-box img {
+        margin-bottom: 0px;
+        width: 50px;
     }
 
     .banner6_part {
-        width: 51%;
         grid-template-columns: none;
         gap: 2rem;
     }
 
-    .part1-banner6_part1 img {
-        max-width: 100px;
+    .vs-box,
+    .vs-box1,
+    .part1-banner6_part1 {
+        flex-direction: row;
     }
 
-    .banner6_part1 {
-        display: grid;
-        grid-template-columns: max-content;
+    .war_date {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
     }
 
     .banner6_part2 {
-        width: 414px;
-        height: 424px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+
+    .banner6_part2::before {
+        width: 100%;
+        height: 100%;
     }
 
     .banner6_part2::after {
-        width: 410px;
-        height: 420px;
+        width: 99%;
+        height: 98%;
+        background-size: cover;
     }
 
-    .part1-banner6_part1 h2 {
+    .txt-box {
+        top: 5px;
+        padding: 30px 90px;
+    }
+
+    .txt-box-img {
+        margin-bottom: 0px;
+        width: 50px;
+    }
+
+    .txt-box h4 {
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+    .vs-box1 img {
+        margin-bottom: 10px;
+        max-width: 50px;
+    }
+
+    .txt-box p,
+    .war_date p {
+        margin-bottom: 0px;
+        font-size: 12px;
+    }
+
+    .txt-box a,
+    .war_date a {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    #vs-box1-imgs {
+        flex-direction: row;
+    }
+
+    .vs-box1 h2 {
         font-size: 20px;
     }
 
-    .banner7_parts {
-        width: 144%;
+    .banner7_part {
+        grid-template-columns: none;
     }
 
-    .banner8_parts {
-        width: 144%;
-        height: 80vh;
+    .banner7_part2 {
+        flex-direction: column;
+        gap: 3rem;
     }
 
-    .banner9_parts {
-        width: 144%;
+    .single-content {
+        width: 100%;
+        height: 300px;
     }
 
-    .single_pricing_part p {
-        font-size: 20px;
-        letter-spacing: 1px;
+    img#img-1 {
+        width: 100%;
+        height: 300px;
     }
 
-    .single_pricing_part ul li {
-        font-size: 17px;
-        letter-spacing: 1px;
+    #single-content-4 {
+        width: 100%;
+        height: 300px;
+    }
+
+    #single-content-5 {
+        width: 100%;
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    div#single-content-1 {
+        width: 100%;
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    #single-content-2 {
+        width: 100%;
+        height: 300px;
+    }
+
+    .banner8_part {
+        width: 100%;
+        height: 100%;
+    }
+
+    .txt {
+        grid-template-columns: none;
+    }
+
+    .banner9_part {
+        width: 100%;
+    }
+
+    .banner9_part2 {
+        gap: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .part1-banner9_part2 {
+        width: 40%;
     }
 
     .banner10_parts {
-        width: 144%;
-        height: 50vh;
-
+        width: 100%;
+        height: 100%;
+        gap: 3rem;
     }
 
     .banner10_part {
-        width: 100%;
         grid-template-columns: repeat(2, 1fr);
+        justify-items: normal;
     }
 
     .banner10_part5 {
-        grid-template-columns: 5fr 2fr;
+        grid-template-columns: none;
+        justify-content: center;
     }
 
-    .banner10_part1 p,
-    .banner10_part2 p,
-    .banner10_part3 p,
-    .banner10_part4 p {
-        font-size: 18px;
-        letter-spacing: 1px;
-    }
-
-    .banner10_part1 h4,
-    .banner10_part2 h4,
-    .banner10_part3 h4,
-    .banner10_part4 h4 {
-        font-size: 24px;
-        letter-spacing: 2px;
-    }
-
-    .part1-banner10_part5 p {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .part2-banner10_part5 a {
-        margin: 0px 8px;
-        font-size: 25px;
-    }
-
-    input#inp {
-        letter-spacing: 0.5px;
-        font-size: 16px;
-    }
-
-    .button-contactForm {
-        font-size: 18px;
+    #h1-h2-h3-h4 {
+        padding: 0px;
+        margin: 0px;
     }
 }
 
@@ -648,279 +628,256 @@
         display: none;
     }
 
-    #h1-h2-h3-h4 {
-        padding: 20px 0px;
-        margin: 20px 0px;
-    }
-
-    .banner3_part2 .btn_1 {
-        margin-right: 24px;
-    }
-
     .banner1_parts {
-        height: 80vh;
-        width: 100%;
-        min-width: 108.5vw;
-        justify-content: center;
+        padding-top: 5%;
         justify-items: center;
-        padding-top: 9%;
     }
 
     .banner1_part1 {
-        width: 67%;
-        justify-content: center;
-        align-items: baseline;
+        width: 90%;
+        height: 100%;
     }
 
-    .banner1_part1 p {
-        font-size: 16px;
+    .banner3_part1 {
+        width: 70%;
     }
 
-    #h1-banner1-part-1 {
-        padding-top: 15px;
+    .banner3_part1 img {
+        height: fit-content;
+        width: 100%;
+    }
+
+    .banner3_part2 {
+        width: 70%;
+    }
+
+    .banner3_part2 .btn_1 {
+        margin-bottom: 30px;
     }
 
     .banner2_parts-main {
-        width: 100%;
-        min-width: 109vw;
+        height: fit-content;
+        margin-top: 0px;
     }
 
     .banner2_parts {
-        width: 100%;
-        min-width: 108.5vw;
+        height: fit-content;
+        flex-direction: column;
+        margin-top: 30px;
     }
 
     .banner2_part1 {
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-items: center;
-        align-items: center;
-    }
-
-
-    .banner3_parts {
-        width: 100%;
-        min-width: 108.5vw;
+        gap: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     .banner4_parts {
-        width: 100%;
-        min-width: 108.5vw;
         grid-template-columns: none;
-        grid-template-rows: 1fr 2fr;
-        justify-content: end;
-        height: 131%;
+        gap: 2rem;
+        justify-items: center;
+        padding: 70px 0px;
     }
 
     .banner4_part2 {
+        grid-template-columns: 1fr 1fr;
         gap: 0rem;
+        justify-items: center;
+        width: 100%;
     }
 
-    .banner5_parts {
-        width: 100%;
-        min-width: 108.5vw;
+    .card1,
+    .card2 {
+        width: 80%;
+    }
+
+    .banner4_part1 {
+        width: fit-content;
     }
 
     .banner5_part2 {
-        width: 555.4px;
-        height: 279px;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .banner5_part {
+        width: 100%;
+        height: 100%;
+    }
+
+    .banner5_part2 {
+        width: 550px;
+        height: 280px;
+        margin-bottom: 0px;
+    }
+
+    .banner5_part2::before {
+        width: 100%;
+        height: 100%;
     }
 
     .banner5_part2::after {
-        width: 552px;
-        height: 275px;
+        width: 99%;
+        height: 98%;
+        background-size: cover;
     }
 
-    .txt-box {
-        height: 93%;
-        top: 15px;
-    }
-
-    .banner6_parts {
-        width: 100%;
-        min-width: 108.5vw;
-    }
 
     .banner6_part {
-        width: 51%;
         grid-template-columns: none;
         gap: 2rem;
     }
 
+    .war_date {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
     .banner6_part2 {
-        width: 414px;
-        height: 424px;
+        width: 550px;
+        height: 280px;
+        margin-bottom: 0px;
+    }
+
+    .banner6_part2::before {
+        width: 100%;
+        height: 100%;
     }
 
     .banner6_part2::after {
-        width: 410px;
-        height: 420px;
+        width: 99%;
+        height: 98%;
+        background-size: cover;
     }
 
-    .banner7_parts {
-        width: 100%;
-        min-width: 108.5vw;
+    .txt-box {
+        top: 20px;
     }
 
-    .banner8_parts {
-        width: 100%;
-        min-width: 108.5vw;
+    .banner7_part {
+        grid-template-columns: none;
+        width: 90%;
     }
 
-    .banner9_parts {
+    .banner7_part2 {
+        gap: 2rem;
+        justify-content: center;
+    }
+
+    .single-content {
+        width: 30%;
+        height: 300px;
+    }
+
+    img#img-1 {
         width: 100%;
-        min-width: 108.5vw;
+        height: 300px;
+    }
+
+    #single-content-4 {
+        width: 30%;
+        height: 300px;
+    }
+
+    #single-content-5 {
+        width: 30%;
+        height: 300px;
+    }
+
+    div#single-content-1 {
+        width: 30%;
+        height: 300px;
+        bottom: 0px;
+    }
+
+    #single-content-2 {
+        width: 30%;
+        height: 300px;
+        bottom: 0px;
+    }
+
+    .banner8_part {
+        width: 100%;
+        height: 100%;
+    }
+
+    .txt {
+        grid-template-columns: none;
+    }
+
+    .banner9_part {
+        width: 100%;
+    }
+
+    .banner9_part2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .part1-banner9_part2 {
+        width: 29%;
     }
 
     .banner10_parts {
         width: 100%;
-        min-width: 108.5vw;
+        height: 100%;
+        gap: 3rem;
     }
 
     .banner10_part {
-        width: 84%;
+        justify-items: normal;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
     }
 
     .banner10_part5 {
-        grid-template-columns: 5fr 2fr;
+        grid-template-columns: none;
+        justify-content: center;
     }
 
-    .banner10_part1 p,
-    .banner10_part2 p,
-    .banner10_part3 p,
-    .banner10_part4 p {
-        font-size: 13px;
-        letter-spacing: 1px;
+    #h1-h2-h3-h4 {
+        padding: 0px;
+        margin: 0px;
     }
-
-    .banner10_part1 h4,
-    .banner10_part2 h4,
-    .banner10_part3 h4,
-    .banner10_part4 h4 {
-        font-size: 17px;
-        letter-spacing: 1px;
-    }
-
-    .button-contactForm {
-        right: 6%;
-        font-size: 18px;
-    }
-
-    .part2-banner10_part5 a {
-        font-size: 20px;
-    }
-
 }
 
-@media only screen and (min-width:992px) and (max-width: 1300px) {
-    .nav-items {
-        text-decoration: none;
-        display: flex;
-        width: 59%;
-    }
-
-    .banner1_parts {
-        height: 100%;
-        min-height: 430px;
-        width: 100%;
-        min-width: 105vw;
-        justify-content: end;
-        padding-top: 8%;
-        align-content: center;
-    }
-
-    .banner1_part1 {
-        width: 42%;
-        padding-left: 20px;
-    }
-
-    .banner2_parts {
-        width: 100%;
-        min-width: 105vw;
-    }
-
-    .banner2_part1 {
-        width: 80%;
-    }
-
-    .banner3_parts {
-        width: 100%;
-        min-width: 105vw;
+@media only screen and (min-width:992px) and (max-width:1150px) {
+    .banner4_part1 {
+        justify-self: center;
     }
 
     .banner4_parts {
-        width: 100%;
-        min-width: 105vw;
-    }
-
-    .banner4_part2 {
-        gap: 0rem;
-    }
-
-    .banner5_parts {
-        width: 100%;
-        min-width: 105vw;
-    }
-
-    .banner5_part2 {
-        width: 695px;
-    }
-
-    .banner6_parts {
-        width: 100%;
-        min-width: 105vw;
+        grid-template-columns: repeat(1, 0fr);
+        gap: 5rem;
     }
 
     .banner6_part {
-        width: 80%;
+        grid-template-columns: none;
+        align-items: center;
+        gap: 2rem;
+        justify-content: center;
     }
 
-    .banner7_parts {
+    .war_date {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        min-width: 105vw;
-    }
-
-    .banner8_parts {
-        width: 100%;
-        min-width: 105vw;
-    }
-
-    .banner9_parts {
-        width: 100%;
-        min-width: 105vw;
-    }
-
-    .banner10_parts {
-        width: 105%;
-    }
-
-    .banner10_part5 {
-        grid-template-columns: 5fr 2fr;
-        width: 96%;
-        padding: 20px 20px;
-    }
-
-    .banner10_part1 p,
-    .banner10_part2 p,
-    .banner10_part3 p,
-    .banner10_part4 p {
-        font-size: 13px;
-        letter-spacing: 1px;
-    }
-
-    .button-contactForm {
-        right: 0%;
-        top: 37%;
-        font-size: larger;
+        align-items: center;
     }
 
     .banner10_part {
-        width: 96%;
-        padding: 20px;
-    }
-
-    .part2-banner10_part5 a {
-        font-size: 22px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
