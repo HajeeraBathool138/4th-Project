@@ -627,3 +627,7 @@ p.cmp-txt {
         background-position: 0 50%;
     }
 }
+
+.banner10_part4 {
+    width: min-content;
+}

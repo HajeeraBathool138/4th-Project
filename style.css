@@ -425,15 +425,17 @@ i.fa-regular.fa-paper-plane {
     display: grid;
     justify-content: center;
     padding-top: 7%;
+    justify-items: center;
 }
 
 .banner1_part1 {
-    width: 45%;
+    width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
+    padding-right: 17rem;
 }
 
 .banner1_part1 h1 {
@@ -1255,4 +1257,8 @@ div#single-content-1 {
     background-position: 100% 50%;
     color: #fff;
     text-decoration: none;
+}
+
+.banner10_part4 {
+    width: min-content;
 }

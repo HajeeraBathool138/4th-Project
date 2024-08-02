@@ -576,6 +576,7 @@ i.fa-regular.fa-paper-plane {
     color: #ffffff;
     font-weight: 700;
     margin-bottom: 10px;
+    font-size: large;
 }
 
 .blog__details__comment__item__text p {
@@ -734,4 +735,8 @@ i.fa-regular.fa-paper-plane {
     font-weight: 700;
     margin-bottom: 26px;
     font-size: 24px;
+}
+
+.banner10_part4 {
+    width: min-content;
 }
