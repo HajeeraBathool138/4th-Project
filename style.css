@@ -424,12 +424,8 @@ i.fa-regular.fa-paper-plane {
     width: 100%;
     display: grid;
     justify-content: center;
-<<<<<<< HEAD
-    padding-top: 7%;
     justify-items: center;
-=======
-    padding-top: 15%;
->>>>>>> e04a14024acd01f56167bc6365a7e62f92f5c3e6
+    padding-top: 10%;
 }
 
 .banner1_part1 {
@@ -439,11 +435,7 @@ i.fa-regular.fa-paper-plane {
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-<<<<<<< HEAD
-    padding-right: 17rem;
-=======
     padding: 2rem 0;
->>>>>>> e04a14024acd01f56167bc6365a7e62f92f5c3e6
 }
 
 .banner1_part1 h1 {

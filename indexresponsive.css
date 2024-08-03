@@ -8,7 +8,7 @@
     .banner1_part1 {
         width: 90%;
         height: 100%;
-        padding-right: 0rem;
+        padding: 0rem;
     }
 
     .banner3_part {
@@ -255,7 +255,7 @@
     .banner1_part1 {
         width: 90%;
         height: 100%;
-        padding-right: 0rem;
+        padding: 0rem;
     }
 
     .banner3_part {
@@ -631,14 +631,14 @@
     }
 
     .banner1_parts {
-        padding-top: 25%;
+        padding-top: 20%;
         justify-items: center;
     }
 
     .banner1_part1 {
-        width: 90%;
+        width: 70%;
         height: 100%;
-        padding-right: 0rem;
+        padding: 0rem;
     }
 
     .banner3_part1 {
